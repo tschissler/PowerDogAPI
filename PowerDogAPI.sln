@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32721.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLRPCTests", "XMLRPCTests\XMLRPCTests.csproj", "{3489A72F-65C0-4360-8443-C493D9070B27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerDogConsoleLogger", "PowerDogConsoleLogger\PowerDogConsoleLogger.csproj", "{424C9AC7-745D-4C9C-BF2C-4A3F44B50BF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3489A72F-65C0-4360-8443-C493D9070B27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3489A72F-65C0-4360-8443-C493D9070B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3489A72F-65C0-4360-8443-C493D9070B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3489A72F-65C0-4360-8443-C493D9070B27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{424C9AC7-745D-4C9C-BF2C-4A3F44B50BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424C9AC7-745D-4C9C-BF2C-4A3F44B50BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424C9AC7-745D-4C9C-BF2C-4A3F44B50BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424C9AC7-745D-4C9C-BF2C-4A3F44B50BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {348B764B-1CB8-46BF-9C91-B997ECCC4D1D}
+	EndGlobalSection
+EndGlobal
