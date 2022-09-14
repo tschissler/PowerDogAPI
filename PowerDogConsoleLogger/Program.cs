@@ -8,7 +8,7 @@ Console.WriteLine();
 while (true)
 {
     Proxy myProxy = new Proxy();
-    var result = myProxy.getAllCurrentLinearValues("admin");
+    var result = myProxy.getAllCurrentLinearValues(Environment.GetEnvironmentVariable("PowerDogAPIPassword"));
     var erzeugung = ((XmlRpcStruct)result.Reply[SensorKeys.erzeugung])["Current_Value"];
     var verbrauch = ((XmlRpcStruct)result.Reply[SensorKeys.verbrauchgesamt])["Current_Value"];
     var lieferung = ((XmlRpcStruct)result.Reply[SensorKeys.lieferung])["Current_Value"];
